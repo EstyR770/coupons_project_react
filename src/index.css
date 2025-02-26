@@ -1,0 +1,37 @@
+body, html, #root{
+    margin: 0;
+    height: 100%;
+    background: #e1e1e1;
+    font-family: Calibri;
+}
+
+.box{
+    border: grey solid 1px;
+    box-shadow: 5px 5px 10px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+@media (min-width: 768px) {
+    /* Styles for medium-sized screens and above */
+    .container {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1024px) {
+    /* Styles for large screens and above */
+    .container {
+        justify-content: space-around;
+    }
+}

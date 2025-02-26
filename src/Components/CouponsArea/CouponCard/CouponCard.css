@@ -1,0 +1,10 @@
+.CouponCard {
+    text-align: center;
+}
+.CouponCard>img{
+    height: 150px;
+    width: 200px;
+}
+.CouponCard>button{
+    margin: 10px;
+}

@@ -1,0 +1,12 @@
+.Layout {
+	display: grid;
+    height: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 15% 10% 75% 10%;
+}
+
+
+
+.Layout>main{
+    overflow: auto;
+}

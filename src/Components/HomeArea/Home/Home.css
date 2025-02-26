@@ -1,0 +1,10 @@
+.Home {
+    padding: 10px;
+    background-color: #63db9b;
+
+}
+.Home>iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

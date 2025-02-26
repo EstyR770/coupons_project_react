@@ -1,0 +1,11 @@
+.AuthMenu {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.logout{
+    margin-left: 10px;
+    background-color: #cb382a;
+
+}
